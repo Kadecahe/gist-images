@@ -48,7 +48,7 @@ The goal for this case study is to try to get them to think about caching. Cachi
 
 Lead them to thinking about a cache. Specifically you want them to talk about a cache with the Least Frequently Used eviction policy. The idea here is that we can keep track of new releases and their ticket sales. The ones with the ticket least ticket sales get bumped off the cache in favor of the ones with higher ticket sales.
 
-![Sample Diagram of Web Application Layers with Caching](./assets/WebAppLayersCache.png)
+![Sample Diagram of Web Application Layers with Caching](./WebAppLayersCache.png)
 
 ### Case Study 3: Our application is a monolith. If we make changes to a specific part of our application, we need to redeploy the entire thing
 
@@ -82,13 +82,11 @@ An important discussion to have is how do these services communicate with each o
 
 ## Sample Activity Diagram
 
-![Microservice Activity Diagram](./assets/MicroservicesActivityDiagram.png)
+![Microservice Activity Diagram](./MicroservicesActivityDiagram.png)
 
 ## Sample Data Flow Diagram
 
 The reason that the microservices don't have their own databases is that they depend on the same data. 
 
-![Microservice Diagram](./assets/Microservices.png)
+![Microservice Diagram](./Microservices.png)
 
-## Resource
-* [Sample Slides](https://docs.google.com/presentation/d/1d3bDYaF7bPvfAv1JWEu4Y_ykhv_yVgRhgXd1E_2mfts/edit#slide=id.ga9979b04fa_0_45)
