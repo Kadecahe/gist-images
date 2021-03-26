@@ -40,7 +40,7 @@ They should also discuss some possible issues that may pop up using this type of
 
 What if we were storing our sessions in the node process? A possible solution is something called "sticky sessions" where we configure our Load Balancer to send user session to the same machine that the request is being sent to.
 
-![Sample Diagram of Web Application Layers with Load Balancing](./assets/WebAppLayersLB.png)
+![Sample Diagram of Web Application Layers with Load Balancing](./WebAppLayersLB.png)
 
 ### Case Study 2: We have a feature which shows the most popular new releases but the query is really slow
 
